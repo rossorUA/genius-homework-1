@@ -1,0 +1,15 @@
+:root {
+  --white: #ffffff;
+  --blue: #2b7fff;
+  --dark-blue: #011c44;
+  --second-dark-gray: #4a4a4a;
+  --second-gray: #747272;
+  --second-dark-blue: #011f4a;
+  --second-yellow: #ffd02b;
+}
+
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Poppins", sans-serif;
+  --third-family: "Play", sans-serif;
+}
