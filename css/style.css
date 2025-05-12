@@ -1,0 +1,124 @@
+:root {
+  --color-primary-white: #FFFFFF;
+  --color-primary-light-blue: #2B7FFF;
+  --color-primary-dark-blue: #011C44;
+  --color-secondary-dark-gray: #4A4A4A;
+  --color-secondary-light-gray: #747272;
+  /* --color-secondary-dark-blue: #011F4A; */
+  --color-secondary-yellow: #FFD02B;
+  --color-secondary-black: #000000;
+  --color-effect: #A8C6F5;
+}
+
+
+:root {
+  --color-primary-white: #ffffff;
+  --color-primary-light-blue: #2B7FFF;
+  --color-primary-dark-blue: #011C44;
+  --color-secondary-dark-gray: #4A4A4A;
+  --color-secondary-light-gray: #747272;
+  --color-secondary-yellow: #FFD02B;
+  --color-secondary-black: #000000;
+  --color-effect: #A8C6F5;
+
+  --font-main: 'Roboto', sans-serif;
+  --font-title: 'Play', sans-serif;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--color-primary-white);
+  color: var(--color-primary-dark-blue);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-title);
+  font-weight: 700;
+  color: var(--color-primary-dark-blue);
+  line-height: 1.2;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+
+.logo {
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--color-primary-light-blue);
+  text-decoration: none;
+ }
+
+
+input, button, textarea, select {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.button {
+  background-color: var(--color-primary-light-blue);
+  color: var(--color-primary-white);
+  padding: 12px 24px;
+  border-radius: 18px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--color-primary-white);
+  color: var(--color-primary-dark-blue);
+  
+}
+
+.name{
+  color: var(--color-primary-light-blue);
+}
